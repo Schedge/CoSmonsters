@@ -134,7 +134,7 @@
   "damageResistances": "cold, fire",
   "damageImmunities": "lightning, poison",
   "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
-"senses": "blindsight 60ft.(blind beyond this radius), passive Perception 13",
+"senses": "blindsight 60ft. (blind beyond this radius), passive Perception 13",
 "languages": "Understands Common but cannot speak",
   "challenge": "6",
 "traits": [

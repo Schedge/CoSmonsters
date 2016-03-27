@@ -4,7 +4,7 @@
 "type": "construct",
 "alignment": "unaligned",
 "ac": "16 (natural armor)",
-"hp": "217d20+85",
+"hp": "17d20+85",
 "speed": "30ft.",
 "strength": 26,
 "dexterity": 7,

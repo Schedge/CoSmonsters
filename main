@@ -1,0 +1,164 @@
+{
+"name": "Baba Lysaga's Creeeping Hut",
+"size": "Gargantuan",
+"type": "construct",
+"alignment": "unaligned",
+"ac": "16 (natural armor)",
+"hp": "217d20+85",
+"speed": "30ft.",
+"strength": 26,
+"dexterity": 7,
+"constitution": 20,
+"intelligence": 1,
+"wisdom": 3,
+"charisma": 3,
+"savingThrows": "Con +9, Wis +0, Cha +0",
+  "damageImmunities": "poison, psychic",
+  "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, prone",
+"senses": "blindsight 120ft. (blind beyond this radius)",
+  "challenge": "11",
+"traits": [
+{
+"name": "Antimagic Susceptibility",
+"text": "The hut is incapacitated while the magic gem that animates it is in the area of an antimagic field. If targeted by dispel magic, the hut must succeed on a Constitution saving throw against the caster's spell save DC or fall unconcious for 1 minute."
+},
+{
+"name": "Seige Monster",
+"text": "The hut deals double damage to objects and structures."
+}
+],
+"actions": [
+{
+"name": "Multiattack",
+"text": "The hut makes three attacks with its roots. It can replace on of these attacks with a rock attack."
+},
+{
+"name": "Root",
+"text": "Melee Weapon Attack: +12 to hit, reach 60 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage."
+},
+{
+"name": "Rock",
+"text": "Ranged Weapon Attack: +12 to hit, range 120 ft., one target. Hit: 21 (3d8 + 8) bludgeoning damage."
+}
+]
+},
+{
+"name": "Broom of Animated Attack",
+"size": "Small",
+"type": "construct",
+"alignment": "unaligned",
+"ac": "15 (natural armor)",
+"hp": "5d6",
+"speed": "0ft., fly 60ft. (hover)",
+"strength": 10,
+"dexterity": 17,
+"constitution": 10,
+"intelligence": 1,
+"wisdom": 5,
+"charisma": 1,
+  "damageImmunities": "poison, psychic",
+  "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone",
+"senses": "blindsight 120ft. (blind beyond this radius), passive Perception 7",
+  "challenge": "1/4",
+"traits": [
+{
+"name": "Antimagic Susceptibility",
+"text": "The broom is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the broom must succeed on a Constitution saving throw against the caster's spell save DC or fall unconcious for 1 minute."
+},
+{
+"name": "False Appearance",
+"text": "While the broom remains motionless and isn't flying, it is indistinguisable from a normal broom."
+}
+],
+"actions": [
+{
+"name": "Multiattack",
+"text": "The broom makes two melee attacks."
+},
+{
+"name": "Broomstick",
+"text": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage."
+}
+]
+},
+{
+"name": "Guardian Portrait",
+"size": "Medium",
+"type": "construct",
+"alignment": "unaligned",
+"ac": "5 (natural armor)",
+"hp": "5d8",
+"speed": "0ft.",
+"strength": 1,
+"dexterity": 1,
+"constitution": 10,
+"intelligence": 14,
+"wisdom": 10,
+"charisma": 10,
+  "damageImmunities": "poison",
+  "conditionImmunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained"
+"senses": "darkvision 60ft., passive Perception 10",
+"languages": "Common, plus up to two other languages",
+  "challenge": "1",
+"traits": [
+{
+"name": "Antimagic Susceptibility",
+"text": "The portrait is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the portrait must succeed on a Constitution saving throw against the caster's spell save DC or fall unconcious for 1 minute."
+},
+{
+"name": "Innate Spellcasting",
+"text": "The portrait's innate spellcasting ability is intelligence (spell save DC 12). The portrait can innately cast the following spells, requiring no material components:\n3/day each: counterspell, crown of madness, hypnotic pattern, telekinesis"
+},
+{
+"name": "False Appearance",
+"text": "While the figure in the portrait remains motionless, the portrait is indistinguisable from a normal painting."
+}
+]
+},
+{
+"name": "Strahd's Animated Armor",
+"size": "Medium",
+"type": "construct",
+"alignment": "lawful evil",
+"ac": "21 (natural armor)",
+"hp": "15d8+45",
+"speed": "30ft.",
+"strength": 17,
+"dexterity": 13,
+"constitution": 16,
+"intelligence": 9,
+"wisdom": 10,
+"charisma": 9,
+"savingThrows": "Dex +9, Con +16, Wis +10, Cha +16",
+"skills": "Perception +3",
+  "damageResistances": "cold, fire",
+  "damageImmunities": "lightning, poison",
+  "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+"senses": "blindsight 60ft.(blind beyond this radius), passive Perception 13",
+"languages": "Understands Common but cannot speak",
+  "challenge": "6",
+"traits": [
+{
+"name": "Antimagic Susceptibility",
+"text": "The armor is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall unconcious for 1 minute."
+},
+{
+"name": "False Appearance",
+"text": "While the armor remains motionless, it is indistinguisable from a normal suit of armor."
+}
+],
+"actions": [
+{
+"name": "Multiattack",
+"text": "The armor makes two melee attacks or uses Shocking Bolt twice."
+},
+{
+"name": "Greatsword",
+"text": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage plus 3 (1d6) lightning damage."
+},
+{
+"name": "Shocking Bolt",
+"text": "Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit: 10 (3d6) lightning damage."
+}
+]
+}
